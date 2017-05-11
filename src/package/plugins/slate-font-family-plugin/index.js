@@ -4,6 +4,7 @@
 import FontFamilySchema from './FontFamilySchema'
 import FontFamilyMark from './FontFamilyMark'
 import FontFamilyList from './FontFamilyList'
+import FontFamilyParser from './FontFamilyParser'
 
 //
 // Keyboard
@@ -29,6 +30,7 @@ export {
   FontFamilyPlugin,
   FontFamilySchema,
   FontFamilyMark,
+  FontFamilyParser,
   // FontFamilyKeyboardShortcut,
   FontFamilyUtils,
   FontFamilyDropdown,

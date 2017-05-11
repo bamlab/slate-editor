@@ -3,6 +3,7 @@
 //
 import LinkSchema from './LinkSchema'
 import LinkNode from './LinkNode'
+import LinkParser from './LinkParser'
 
 //
 // Keyboard
@@ -27,6 +28,7 @@ const LinkPlugin = options => ({
 export {
   LinkPlugin,
   LinkSchema,
+  LinkParser,
   LinkNode,
   LinkKeyboardShortcut,
   LinkUtils,

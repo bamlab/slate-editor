@@ -3,6 +3,7 @@
 //
 import ItalicSchema from './ItalicSchema'
 import ItalicMark from './ItalicMark'
+import ItalicParser from './ItalicParser'
 
 //
 // Keyboard
@@ -28,7 +29,8 @@ export {
   ItalicPlugin,
   ItalicSchema,
   ItalicMark,
+  ItalicParser,
   ItalicKeyboardShortcut,
   ItalicUtils,
-  ItalicButton,
+  ItalicButton
 }

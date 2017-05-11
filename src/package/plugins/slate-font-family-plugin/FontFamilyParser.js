@@ -1,8 +1,6 @@
 import React from 'react'
-import {
-  FontFamilyMark,
-  FontFamilyList
-} from '../../plugins/slate-font-family-plugin'
+import FontFamilyMark from './FontFamilyMark'
+import FontFamilyList from './FontFamilyList'
 
 export default {
   

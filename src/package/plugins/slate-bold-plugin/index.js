@@ -3,6 +3,7 @@
 //
 import BoldSchema from './BoldSchema'
 import BoldNode from './BoldNode'
+import BoldParser from './BoldParser'
 
 //
 // Keyboard
@@ -27,8 +28,9 @@ const BoldPlugin = options => ({
 export {
   BoldPlugin,
   BoldSchema,
+  BoldParser,
   BoldNode,
   BoldKeyboardShortcut,
   BoldUtils,
-  BoldButton,
+  BoldButton
 }

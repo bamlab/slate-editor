@@ -3,6 +3,7 @@
 //
 import UnderlineSchema from './UnderlineSchema'
 import UnderlineMark from './UnderlineMark'
+import UnderlineParser from './UnderlineParser'
 
 //
 // Keyboard
@@ -28,7 +29,8 @@ export {
   UnderlinePlugin,
   UnderlineSchema,
   UnderlineMark,
+  UnderlineParser,
   UnderlineKeyboardShortcut,
   UnderlineUtils,
-  UnderlineButton,
+  UnderlineButton
 }
