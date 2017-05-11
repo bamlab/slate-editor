@@ -1,6 +1,7 @@
 // Schema
 import FontSizeSchema from './FontSizeSchema'
 import FontSizeMark from './FontSizeMark'
+import FontSizeParser from './FontSizeParser'
 
 // Keyboard
 import FontSizeKeyboardShortcut from './FontSizeKeyboardShortcut'
@@ -35,6 +36,7 @@ const FontSizePlugin = options => {
 export {
   FontSizePlugin,
   FontSizeSchema,
+  FontSizeParser,
   FontSizeMark,
   FontSizeKeyboardShortcut,
   FontSizeUtils,
