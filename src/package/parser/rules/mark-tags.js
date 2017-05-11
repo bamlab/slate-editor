@@ -1,8 +1,14 @@
 import React from 'react'
 
+import { BoldNode } from '../../plugins/slate-bold-plugin'
+import { ItalicMark } from '../../plugins/slate-italic-plugin'
+import { UnderlineMark } from '../../plugins/slate-underline-plugin'
+
 const MARK_TAGS = {
   em: 'italic',
+  i: 'italic',
   strong: 'bold',
+  b: 'bold',
   u: 'underline'
 }
 
@@ -22,9 +28,12 @@ export default {
   serialize(node, children) {
     if (node.kind === 'mark') {
       switch (node.type) {
-        case 'bold': return <strong>{children}</strong>
-        case 'italic': return <em>{children}</em>
-        case 'underline': return <u>{children}</u>
+        case 'bold':
+          return <BoldNode>{children}</BoldNode>
+        case 'italic':
+          return <ItalicMark>{children}</ItalicMark>
+        case 'underline':
+          return <UnderlineMark>{children}</UnderlineMark>
       }
     }
   }
