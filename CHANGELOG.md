@@ -1,3 +1,18 @@
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/nossas/slate-editor/compare/v2.6.10...v3.0.0) (2017-10-23)
+
+
+### Features
+
+* **upgrade-slate:** Upgraded to use the latest slate-editor (0.25.3) ([f9a578b](https://github.com/nossas/slate-editor/commit/f9a578b))
+
+
+### BREAKING CHANGES
+
+* **upgrade-slate:** - slate has gone through many enhancements and breaking changes and to be compatible with the latest, the slate-editor also has breaking changes. This mostly revolves around the changes slate made to the removal of the Raw serializer and the Change objects
+
+
+
 # Change Log
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
